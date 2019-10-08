@@ -1,0 +1,11 @@
+<map id="ap::jumps_per_mode" name="ap::jumps_per_mode">
+<area shape="rect" id="node2" href="$namespaceap.html#a3dd5d0d922552bee9ade57888042866c" title="ap::accept_path" alt="" coords="199,72,314,99"/>
+<area shape="rect" id="node3" href="$namespaceap.html#a2e4ebac33ef575a65f3bcaf42257cb35" title="ap::get_all_paths" alt="" coords="196,123,317,149"/>
+<area shape="rect" id="node4" href="$namespacealgorithm.html#a716dde3d9821049bd2e2d28514b6261b" title="algorithm::evaluate_ha" alt="" coords="376,5,529,32"/>
+<area shape="rect" id="node5" href="$namespacealgorithm.html#a69c8275d5c6f97758248f103b1ba3879" title="algorithm::evaluate\l_pha_bayesian" alt="" coords="387,57,519,98"/>
+<area shape="rect" id="node6" href="$namespacealgorithm.html#ae8240708833ff107daf235c49a248456" title="algorithm::solve_min_max" alt="" coords="365,123,540,149"/>
+<area shape="rect" id="node7" href="$namespacealgorithm.html#a4a320b9da29a2c6599f15eadd2d85450" title="algorithm::compute\l_robustness" alt="" coords="386,174,519,215"/>
+<area shape="rect" id="node10" href="$namespacepdrh.html#a64f30f4eb2e692c6fb24fdc554d51154" title="pdrh::get_paths" alt="" coords="397,240,509,267"/>
+<area shape="rect" id="node8" href="$namespaceap.html#a2289222e0095ac47b9ae8a32b9746abf" title="ap::compute_max_robustness" alt="" coords="588,156,785,183"/>
+<area shape="rect" id="node9" href="$namespaceap.html#a0239abcdd6beecf9792dbfac7149e354" title="ap::compute_min_robustness" alt="" coords="590,207,783,233"/>
+</map>

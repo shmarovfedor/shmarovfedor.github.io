@@ -1,0 +1,9 @@
+<map id="measure::bounds::gaussian" name="measure::bounds::gaussian">
+<area shape="rect" id="node2" href="$namespacemeasure.html#a46ed173437624c7693b04e21e8ef6517" title="measure::integral" alt="" coords="246,35,369,61"/>
+<area shape="rect" id="node8" href="$namespacemeasure_1_1distribution.html#a35a47cfe913f3474800de9defcd43c35" title="measure::distribution\l::gaussian" alt="" coords="236,86,379,127"/>
+<area shape="rect" id="node3" href="$namespacebox__factory.html#a767cb547ff9f7272f99cd181d38dedb6" title="box_factory::partition" alt="" coords="427,35,571,61"/>
+<area shape="rect" id="node4" href="$classbox.html#ac035e18162c871daa4d70760b704deb8" title="box::get_map" alt="" coords="825,5,926,32"/>
+<area shape="rect" id="node5" href="$classbox.html#aab14bb58632eb94b369c34d947e85643" title="box::erase" alt="" coords="644,35,727,61"/>
+<area shape="rect" id="node6" href="$namespacebox__factory.html#ab7d7eb40c548e859081e5869f24df6dd" title="box_factory::bisect" alt="" coords="619,85,752,112"/>
+<area shape="rect" id="node7" href="$namespacebox__factory.html#ada51ecbaebc2791e659d7a3c376c01da" title="box_factory::cartesian\l_product" alt="" coords="800,78,951,119"/>
+</map>

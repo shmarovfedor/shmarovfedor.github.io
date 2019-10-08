@@ -1,0 +1,8 @@
+<map id="TEST" name="TEST">
+<area shape="rect" id="node2" href="$classbox.html#ad653b4da5e9038779a0429a6a44ea856" title="box::compatible" alt="" coords="319,56,433,83"/>
+<area shape="rect" id="node7" href="$namespacebox__factory.html#abd09a7e0a61a8c7fb0d5b862ecb24cde" title="box_factory::compatible" alt="" coords="109,81,271,108"/>
+<area shape="rect" id="node3" href="$namespacebox__factory.html#a4176cc198e532cb72c8996a11d55e913" title="box_factory::get_keys_diff" alt="" coords="481,5,657,32"/>
+<area shape="rect" id="node5" href="$classbox.html#a266ca04e56ead476042b81e225757dac" title="box::empty" alt="" coords="526,56,613,83"/>
+<area shape="rect" id="node6" href="$classbox.html#aa22e61297aac0fc505d991510c8cf61c" title="box::get_keys_diff" alt="" coords="505,107,634,133"/>
+<area shape="rect" id="node4" href="$classbox.html#ac035e18162c871daa4d70760b704deb8" title="box::get_map" alt="" coords="705,56,807,83"/>
+</map>

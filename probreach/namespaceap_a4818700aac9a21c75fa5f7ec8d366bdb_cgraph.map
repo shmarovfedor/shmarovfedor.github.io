@@ -1,0 +1,10 @@
+<map id="ap::apply_reset" name="ap::apply_reset">
+<area shape="rect" id="node2" href="$classbox.html#ac035e18162c871daa4d70760b704deb8" title="box::get_map" alt="" coords="183,81,285,108"/>
+<area shape="rect" id="node3" href="$namespaceap.html#af430fdd5fe976681fc9ad6fb92c52969" title="ap::get_sample_rate" alt="" coords="164,132,304,159"/>
+<area shape="rect" id="node8" href="$namespacepdrh.html#aa4f2173c40c59858af52948ef37f12e6" title="pdrh::node_to_interval" alt="" coords="361,208,512,235"/>
+<area shape="rect" id="node9" href="$namespacepdrh.html#ae58ca7828aa3583858dc4f885bc9b2b8" title="pdrh::get_mode" alt="" coords="178,233,290,260"/>
+<area shape="rect" id="node4" href="$namespacepdrh.html#acca90c6de60d6a5f8a6b59c391677991" title="pdrh::copy_tree" alt="" coords="381,5,493,32"/>
+<area shape="rect" id="node5" href="$namespacepdrh.html#a558b7ad5e80ae3f8d518fbfab689e92e" title="pdrh::get_first_time_node" alt="" coords="352,56,521,83"/>
+<area shape="rect" id="node6" href="$namespacepdrh.html#ae491380a308e9036915eaf0f63397453" title="pdrh::delete_node" alt="" coords="374,107,499,133"/>
+<area shape="rect" id="node7" href="$namespacepdrh.html#a1dac69b96969dc12e355f8c7d22890bf" title="pdrh::is_node_empty" alt="" coords="365,157,508,184"/>
+</map>

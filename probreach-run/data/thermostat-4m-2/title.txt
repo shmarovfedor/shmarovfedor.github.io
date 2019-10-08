@@ -1,0 +1,1 @@
+Thermostat (4 modes) [T4(1.7), k = 6]
