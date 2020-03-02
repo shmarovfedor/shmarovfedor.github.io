@@ -42,31 +42,58 @@
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage{url}
+\usepackage{xcolor}
 
 \name{Fedor Shmarov} % Your name
 
-\address{+447549260447 \\ shmarovfedor@mail.ru \\ shmarov.com} % Your phone number and email
-\address{195 Melbourne Court, Newcastle upon Tyne, NE1 2AT, UK} % Your secondary addess (optional)
+\address{195 Melbourne Court, Howard Street, Newcastle upon Tyne, NE1 2AT, UK} % Your secondary addess (optional)
+\address{+447549260447 \\ shmarovfedor@mail.ru \\ www.shmarov.com} % Your phone number and email
 
 \begin{document}
 
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
+%	SUMMARY
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Personal Profile}
 
 I am an enthusiastic and motivated researcher with a strong background in formal reasoning
-and model checking, currently working on a Rosetrees Fund sponsored project
- where I apply formal methods and machine learning techniques
-to designing personalised ultraviolet (UVB) photo-therapies for treating psoriasis.
-% using collected clinical data.
-I am particularly interested into conducting a research into 
-combining machine learning and formal verification
-({\em e.g.}, ensuring formal correctness of the machine learning algorithms,
-or using machine learning to speed up formal verification).
+and model checking. Currently I am working on a project sponsored by Rosetrees Fund 
+where I perform mathematical modelling of ultraviolet phototherapy for treating psoriasis and 
+apply machine learning techniques to clinical data for designing personalised treatments.
+
+%I am particularly interested into conducting a research into 
+%combining machine learning and formal verification
+%({\em e.g.}, ensuring formal correctness of the machine learning algorithms,
+%or using machine learning to speed up formal verification).
 
 \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%       WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+
+{\bf Newcastle University, UK} \hfill {\em 2017 - present} \\
+Research Associate in School of Computing \\
+
+{\bf \em Projects}: \\
+{\em Project Title}: Personalised ultraviolet B (UVB) treatment of psoriasis through biomarker 
+integration with computational modelling of psoriatic plaque resolution \\
+{\em Principal Investigators}: Dr Paolo Zuliani and Prof Nick Reynolds \\
+{\em Sponsors}: Rosetrees Trust %\\
+%{\em Achievements}: 
+%\begin{itemize}	
+%	\item I performed latent class analysis of clinical data of patients with psoriasis 
+%		where the individuals were stratified into distinct groups based on the early response to the therapy.
+%	\item I applied machine learning for developing a classifier for identifying
+%		patients from the obtained classes.
+%	\item I developed a personalised mathematical model of ultraviolet phototherapy for treating psoriasis.
+%\end{itemize}
+\end{rSection}
+
 
 
 %----------------------------------------------------------------------------------------
@@ -79,7 +106,13 @@ or using machine learning to speed up formal verification).
 {\bf Newcastle University, UK} \hfill {\em 2013 - 2018} \\ 
 Ph.D. in Computing Science  \\
 {\em Thesis Title}: Probabilistic Bounded Reachability for Stochastic Hybrid Systems \\ 
-{\em Supervisor}: Dr Paolo Zuliani
+{\em Supervisor}: Dr Paolo Zuliani \\
+{\em Summary}: I developed novel methods combining formal verification techniques
+and statistical model checking for probabilistic reachability analysis
+and parameter set synthesis in stochastic parametric hybrid systems. 
+I implemented these methods in the tool 
+called ProbReach (available at \url{https://github.com/dreal/probreach}).
+
 \smallskip 
 
 {\bf Newcastle University, UK} \hfill {\em 2012 - 2013} \\ 
@@ -89,24 +122,6 @@ M.Sc. (with Distinction) in Advanced Computer Science
 {\bf Tambov State Technical University, Russia} \hfill {\em 2007 - 2011} \\ 
 B.Sc. (with Honours) in Information Science and Computer Technology
 \smallskip 
-
-\end{rSection}
-
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Work Experience}
-
-
-{\bf Newcastle University, UK} \hfill {\em 2017 - present} \\ 
-Research Associate in School of Computing \\
-
-{\bf Projects}: \\
-{\em Project Title}: Personalised ultraviolet B (UVB) treatment of psoriasis through biomarker integration with computational modelling of psoriatic plaque resolution \\ 
-{\em Principal Investigators}: Dr Paolo Zuliani and Prof Nick Reynolds \\
-{\em Sponsors}: Rosetrees Trust
 
 \end{rSection}
 
@@ -152,55 +167,30 @@ Research Associate in School of Computing \\
 % \end{rSection}
 %------------------------------------------------
 
-\begin{rSection}{Teaching Experience}
-
-\begin{itemize}
-	\item As Research Associate I have co-supervised final projects for
-	several undergraduate and master students.
-
-	\item As PhD student I worked as a demonstrator for several
-	school modules for undergraduate and master students.
-	% \begin{itemize}
-	% 	\item Programming in Java
-	% 	\item System Validation
-	% 	\item Understanding Concurrency
-	% 	\item Mathematics
-	% \end{itemize}
-\end{itemize}
-
-\end{rSection}
 
 
 \begin{rSection}{Technical Skills}
-
 \begin{itemize}
-
-	\item Programming Languages: C/C++, Java, Python, MATLAB, R
-	\item Operating Systems: Linux, Windows, Mac OS
-
+	\item Programming Languages: C/C++, Java, Python, MATLAB, R, SQL
+	\item Operating Systems: Linux, Windows, OS X
 \end{itemize}
-
 \end{rSection}
+
 
 \begin{rSection}{Personal Skills}
-
 \begin{itemize}
-
-	\item Languages: English (fluent), Russian (native)
 	\item Experienced public speaker and presenter
-
+	\item Languages: English (fluent), Russian (native)
 \end{itemize}
-
 \end{rSection}
 
-
+\pagebreak
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Publications}
-
 \begin{itemize}
 
 	\item {\bf F. Shmarov}, N. Paoletti, E. Bartocci, S. Lin, S. Smolka and P. Zuliani. 
@@ -229,13 +219,11 @@ Research Associate in School of Computing \\
 	in {\em HSCC}. ACM, 2015, pp. 134--139.
 
 \end{itemize}
-
 \end{rSection}
 
 
 
 \begin{rSection}{Workshop Presentations}
-
 \begin{itemize}
 
 	\item {\bf F. Shmarov}. "Probabilistic Bounded Reachability for Stochastic Hybrid Systems". 
@@ -249,23 +237,38 @@ Research Associate in School of Computing \\
 	{\em International Workshop on Automated Reasoning for Systems Biology and Medicine (ARSBM), 2016.}
 
 \end{itemize}	
+\end{rSection}
 
+
+
+\begin{rSection}{Teaching Experience}
+\begin{itemize}
+	\item As Research Associate I have co-supervised final projects for
+	several undergraduate and master students.
+
+	\item As PhD student I worked as a demonstrator for several
+	school modules for undergraduate and master students.
+	% \begin{itemize}
+	% 	\item Programming in Java
+	% 	\item System Validation
+	% 	\item Understanding Concurrency
+	% 	\item Mathematics
+	% \end{itemize}
+\end{itemize}
 \end{rSection}
 
 
 
 \begin{rSection}{Awards}
-
 \begin{itemize}
 	\item In 2013 I received Philip Merlin prize from the School of Computing Science 
 	for the Best MSc Dissertation.
 \end{itemize}
-
 \end{rSection}
 
 
 
-\begin{rSection}{Referees}
+\begin{rSection}{References}
 
 \end{rSection}
 
