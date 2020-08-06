@@ -41,17 +41,22 @@
 % \makeatother
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
-\usepackage{url}
 \usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage{hyperref}
+
+
+\hypersetup{colorlinks,breaklinks,linkcolor=blue,urlcolor=blue,anchorcolor=blue,citecolor=blue}
 
 \name{Fedor Shmarov} % Your name
 
-%\address{195 Melbourne Court, Howard Street, Newcastle upon Tyne, NE1 2AT, UK} % Your secondary addess (optional)
-%\address{+447549260447 \\ shmarovfedor@mail.ru \\ www.shmarov.com} % Your phone number and email
+\address{195 Melbourne Court, Howard Street, Newcastle upon Tyne, NE1 2AT, UK} % Your secondary addess (optional)
+\address{+447549260447 \\ mailto: \texttt{fedor.shmarov@ncl.ac.uk} \\ \url{www.shmarov.com}} % Your phone number and email
 
-\address{1 Science Square, Newcastle upon Tyne, NE4 5TG, UK} % Your secondary addess (optional)
-\address{+447549260447 \\ fedor.shmarov@newcastle.ac.uk \\ www.shmarov.com} % Your phone number and email
-\address{School of Computing, Newcastle University, Urban Sciences Building,}
+% \address{1 Science Square, Newcastle upon Tyne, NE4 5TG, UK} % Your secondary addess (optional)
+% \address{+447549260447 \\ \texttt{fedor.shmarov@newcastle.ac.uk} \\ \url{www.shmarov.com}} % Your phone number and email
+% \address{School of Computing, Newcastle University, Urban Sciences Building,}
 
 \begin{document}
 
@@ -61,7 +66,7 @@
 
 \begin{rSection}{Personal Profile}
 
-I am an enthusiastic and motivated researcher with a strong background in formal reasoning
+I am an enthusiastic and motivated researcher with a strong background in formal verification
 and model checking. Currently I am working on a project sponsored by the Rosetrees Trust 
 where I perform mathematical modelling of ultraviolet phototherapy for treating psoriasis and 
 apply machine learning techniques to clinical data for designing personalised treatments.
@@ -80,14 +85,13 @@ apply machine learning techniques to clinical data for designing personalised tr
 \begin{rSection}{Work Experience}
 
 
-{\bf Newcastle University, UK} \hfill {\em 2017 - present} \\
+{\bf Newcastle University, UK} \hfill {\em October 2017 - present} \\
 Research Associate in the School of Computing \\
 
-{\bf \em Projects}: \\
 {\em Project Title}: Personalised ultraviolet B (UVB) treatment of psoriasis through biomarker 
 integration with computational modelling of psoriatic plaque resolution \\
 {\em Principal Investigators}: Dr Paolo Zuliani and Prof Nick Reynolds \\
-{\em Sponsors}: Rosetrees Trust %\\
+{\em Sponsor}: Rosetrees Trust %\\
 %{\em Achievements}: 
 %\begin{itemize}	
 %	\item I performed latent class analysis of clinical data of patients with psoriasis 
@@ -107,24 +111,29 @@ integration with computational modelling of psoriatic plaque resolution \\
 \begin{rSection}{Education}
 
 
-{\bf Newcastle University, UK} \hfill {\em 2013 - 2018} \\ 
+{\bf Newcastle University, UK} \hfill {\em September 2013 - January 2018} \\ 
 Ph.D. in Computing Science  \\
-{\em Thesis Title}: Probabilistic Bounded Reachability for Stochastic Hybrid Systems \\ 
+{\em Thesis Title}: \href{http://hdl.handle.net/10443/4046}{Probabilistic Bounded Reachability for Stochastic Hybrid Systems} \\ 
 {\em Supervisor}: Dr Paolo Zuliani \\
 {\em Summary}: I developed novel methods combining formal verification techniques
 and statistical model checking for probabilistic reachability analysis
-and parameter set synthesis in stochastic parametric hybrid systems. 
+% and parameter set synthesis in 
+of stochastic parametric hybrid systems. 
 I implemented these methods in the tool 
-called ProbReach (available at \url{https://github.com/dreal/probreach}).
+called ProbReach (\url{https://github.com/dreal/probreach}).
 
 \smallskip 
 
-{\bf Newcastle University, UK} \hfill {\em 2012 - 2013} \\ 
-M.Sc. (with Distinction) in Advanced Computer Science
+{\bf Newcastle University, UK} \hfill {\em September 2012 - August 2013} \\ 
+M.Sc. (with Distinction) in Advanced Computer Science \\
+{\em Average grade}: 87.28 out of 100 \\
+{\bf {\em Awards}}: The Philip Merlin prize from the School of Computing Science 
+for best dissertation by an MSc taught student 2012-2013.
 \smallskip 
 
-{\bf Tambov State Technical University, Russia} \hfill {\em 2007 - 2011} \\ 
-B.Sc. (with Honours) in Information Science and Computer Technology
+{\bf Tambov State Technical University, Russia} \hfill {\em September 2007 - July 2011} \\ 
+B.Sc. (with Honours) in Information Science and Computer Technology \\
+{\em Average grade}: 5.0 out of 5.0
 \smallskip 
 
 \end{rSection}
@@ -176,27 +185,52 @@ B.Sc. (with Honours) in Information Science and Computer Technology
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Publications}
-\begin{itemize}
-
+{\bf Work in progress}
+\begin{enumerate}
 	\item N. Watson, N. Wilson, {\bf F. Shmarov}, P. Zuliani, G. Smith, N.J. Reynolds, and S.C. Weatherhead. 
 	``Towards predicting response to phototherapy in psoriasis using clinical and serum biomarkers 
-	with machine learning techniques''. {\em J Invest Dermatol}. {\em Under review}.
-	
+	with machine learning techniques''.
+
+	\item {\bf F. Shmarov}, P. Zuliani, G. Smith and N.J. Reynolds. 
+	``Modelling of Psoriasis Area Severity Index through ODE remodelling of UVB therapy for psoriasis''.
+
+	\item {\bf F. Shmarov}, P. Zuliani.
+	``Probabilistic Bounded Reachability for Stochastic Parametric Hybrid Systems''.
+\end{enumerate}
+
+
+{\bf Under review}
+\begin{enumerate}[resume]
 	\item {\bf F. Shmarov}, S. Soudjani, N. Paoletti, E. Bartocci, S. Lin, S.A. Smolka, and P. Zuliani.
-	``Automated Synthesis of Safe Digital Controllersfor Sampled-Data Stochastic Nonlinear Systems''.
-	{\em IEEE Transactions on Automatic Control}. {\em Under review}.
+	``Automated Synthesis of Safe Digital Controllers for Sampled-Data Stochastic Nonlinear Systems''.
+	{\em IEEE Access}.
+
+	\item M. Vasileva, {\bf F. Shmarov}, and P. Zuliani.
+	``Probabilistic Reachability for Uncertain Stochastic Hybrid Systems via Gaussian Processes''.
+	{\em 18th ACM-IEEE International Conference on Formal Methods and Models for System Design}.
+\end{enumerate}
+
+
+{\bf Conferences}
+\begin{enumerate}[resume]
+	\item A. Abate, H. Blom, N. Cauchi1, J. Delicaris, S. Haesaert, A. Hartmanns, M. Khaled, A. Lavaei,
+	C. Pilch, A. Remke, S. Schupp, {\bf F. Shmarov}, S. Soudjani, A. Thorpe, A.P. Vinod, B. Wooding, 
+	and P. Zuliani. ``ARCH-COMP20 Category Report: Stochastic Models''. 
+	{\em To appear in the proceedings of the 7th International Workshop on Applied 
+	Verification of Continuous and Hybrid Systems (ARCH20).}
 
 	\item {\bf F. Shmarov}, N. Paoletti, E. Bartocci, S. Lin, S. Smolka, and P. Zuliani. 
 	``SMT-based Synthesis of Safe and Robust PID Controllers for Stochastic Hybrid Systems''.
-	{\em Proceedings of the 13th International Haifa Verification Conference (HVC 2017)}, pp. 131-146.
+	{\em Proceedings of the 13th International Haifa Verification Conference (HVC 2017)}. 2017, pp. 131--146.
 
 	\item {\bf F. Shmarov}, and P. Zuliani. ``Probabilistic Hybrid Systems Verification via 
-	SMT and Monte Carlo Techniques'' in {\em HVC}. LNCS, vol. 10028, 2016,
-	pp. 152--168.
+	SMT and Monte Carlo Techniques'' in {\em HVC}. LNCS, vol. 10028, 2016, pp. 152--168. 
+	{\bf {\em (Presented by me at the conference.)}}
 
 	\item {\bf F. Shmarov}, and P. Zuliani. ``SMT-based Reasoning for Uncertain Hybrid Domains,'' 
 	in {\em AAAI-16 Workhop on Planning for Hybrid Systems, 
 	30th AAAI Conference on Artificial Intelligence}, 2016, pp. 624--630.
+	{\bf {\em (Presented by me at the workshop.)}}
 
 	\item C. Madsen, {\bf F. Shmarov}, and P. Zuliani. ``BioPSy: an SMT-based Tool for 
 	Guaranteed Parameter Set Synthesis of Biological Models,'' in {\em CMSB},
@@ -206,21 +240,43 @@ B.Sc. (with Honours) in Information Science and Computer Technology
 	Guaranteed Reachability Analysis of stochastic parametric hybrid systems,''
 	in {\em Symbolic and Numerical Methods for Reachability Analysis, 1st International Workshop, SNR 2015}, 
 	ser. EPiC Series in Computing, S. Bogomolov and A. Tiwari, Eds., vol. 37, 2015, pp. 40--48.
+	{\bf {\em (Presented by me at the workshop.)}}
 
 	\item {\bf F. Shmarov}, and P. Zuliani. ``ProbReach: Verified Probabilistic 
 	Delta-Reachability for stochastic parametric hybrid systems,''
 	in {\em HSCC}. ACM, 2015, pp. 134--139.
+\end{enumerate}
 
-\end{itemize}
 \end{rSection}
 
 
+
+\begin{rSection}{Teaching Experience}
+\begin{itemize}
+	\item As Research Associate I have co-supervised 1 BSc student (who implemented an extension
+	to my tool ProbReach as a part of the final project)
+	and 6 Bioinformatics MSc students.
+
+	\item As PhD student I demonstrated and marked assignments for 6 different
+	 BSc and MSc modules:
+	\begin{itemize}
+		\item CSC1021 ``Programming I'',
+		\item CSC8105 ``System Validation'',
+		\item CSC3324 ``Understanding Concurrency'',
+		\item CSC1025 ``Mathematics for Computer Science'',
+		\item CSC8317 ``Introductory Programming for Biologists'',
+		\item CSC1024 ``Computer Architecture''.
+	\end{itemize}
+\end{itemize}
+\end{rSection}
+
+\pagebreak
 
 \begin{rSection}{Workshop Presentations}
 \begin{itemize}
 
 	\item {\bf F. Shmarov}, P. Zuliani, G. Smith, N. Reynolds. "A Mechanistic Model of Psoriatic
-	Epidermis and Psoriasis Therapies". {\em Poster session at PSORT consortium showcase, 2019.}
+	Epidermis and Psoriasis Therapies". {\em Poster session at MRC PSORT consortium showcase, 2019.}
 
 	\item {\bf F. Shmarov}. "Probabilistic Bounded Reachability for Stochastic Hybrid Systems". 
 	{\em Third Workshop on Design and Analysis of Robust Systems (DARS), 2018}.
@@ -235,6 +291,7 @@ B.Sc. (with Honours) in Information Science and Computer Technology
 \end{itemize}	
 \end{rSection}
 
+
 \begin{rSection}{Technical Skills}
 \begin{itemize}
 	\item Programming Languages: C/C++, Java, Python, MATLAB, R, SQL
@@ -246,34 +303,22 @@ B.Sc. (with Honours) in Information Science and Computer Technology
 \begin{rSection}{Personal Skills}
 \begin{itemize}
 	\item Experienced public speaker and presenter
+	\item Ability to work in a team
+	\item Efficient time management
 	\item Languages: English (fluent), Russian (native)
 \end{itemize}
 \end{rSection}
 
 
-\begin{rSection}{Teaching Experience}
-\begin{itemize}
-	\item As Research Associate I have co-supervised final projects for
-	several undergraduate and master students.
-
-	\item As PhD student I worked as a demonstrator for several
-	school modules for undergraduate and master students.
-	% \begin{itemize}
-	% 	\item Programming in Java
-	% 	\item System Validation
-	% 	\item Understanding Concurrency
-	% 	\item Mathematics
-	% \end{itemize}
-\end{itemize}
-\end{rSection}
 
 
-\begin{rSection}{Awards}
-\begin{itemize}
-	\item In 2013 I received the Philip Merlin prize from the School of Computing Science 
-	for the Best MSc Dissertation.
-\end{itemize}
-\end{rSection}
+
+% \begin{rSection}{Awards}
+% \begin{itemize}
+% 	\item In 2013 I received the Philip Merlin prize from the School of Computing Science 
+% 	for the Best MSc Dissertation.
+% \end{itemize}
+% \end{rSection}
 
 
 
