@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.28)  26 AUG 2020 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.18)  30 AUG 2020 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **fedor-shmarov-cv.tex
 (./fedor-shmarov-cv.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -311,33 +311,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 257.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 261.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 257.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 261.
  [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 407.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 412.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 412.
 
 (./fedor-shmarov-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 407.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 407.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 412.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 412.
 Package rerunfilecheck Info: File `fedor-shmarov-cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 407.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 412.
  ) 
 Here is how much of TeX's memory you used:
- 6009 strings out of 494847
- 88082 string characters out of 6179079
- 180585 words of memory out of 5000000
- 9294 multiletter control sequences out of 15000+600000
+ 6009 strings out of 492982
+ 88082 string characters out of 6134896
+ 185270 words of memory out of 5000000
+ 9535 multiletter control sequences out of 15000+600000
  8166 words of font info for 29 fonts, out of 8000000 for 9000
- 59 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  29i,5n,35p,189b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
@@ -346,7 +346,7 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on fedor-shmarov-cv.pdf (3 pages, 112805 bytes).
+Output written on fedor-shmarov-cv.pdf (3 pages, 113052 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
