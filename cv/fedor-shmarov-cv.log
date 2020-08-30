@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.18)  30 AUG 2020 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.18)  30 AUG 2020 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,7 +334,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 412.
 Here is how much of TeX's memory you used:
  6009 strings out of 492982
  88082 string characters out of 6134896
- 185270 words of memory out of 5000000
+ 185262 words of memory out of 5000000
  9535 multiletter control sequences out of 15000+600000
  8166 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -346,7 +346,7 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on fedor-shmarov-cv.pdf (3 pages, 113052 bytes).
+Output written on fedor-shmarov-cv.pdf (3 pages, 113036 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
