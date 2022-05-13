@@ -1,35 +1,35 @@
 body
 {
-    background-color: #e0e0e0;
-	font-family: "Calibri";
-	font-size: 120%;
+  background-color: #e0e0e0;
+  font-family: "Computer Modern";
+  font-size: 120%;
 }
 
 div.main
 {
-	position:absolute;
-	margin-top: auto;  
-	margin-left: 12.5%;  
-	width: 75%;
-	background-color: #ffffff;
+  position:absolute;
+  margin-top: auto;  
+  margin-left: 12.5%;  
+  width: 75%;
+  background-color: #ffffff;
 }
 
 div.content
 {
-	position:relative;
-	margin: 30px;
+  position:relative;
+  margin: 30px;
 }
 
 div.photo
 {
-	position:relative;
-    float: right;
-	margin-left: 30px;
-	margin-bottom: 30px;
-    width: 320px;
+  position:relative;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  width: 320px;
 }
 
 img.photo
 {
-    width: 100%;
+  width: 100%;
 }
