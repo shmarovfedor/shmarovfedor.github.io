@@ -1,1 +1,0 @@
-Insulin-Glucose Regulatory Model [IG]

@@ -1,1 +1,0 @@
-Bouncing Ball (one jump) [BB, k = 1]
