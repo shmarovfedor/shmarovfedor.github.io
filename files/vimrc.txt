@@ -10,6 +10,11 @@ set shiftwidth=2
 set smarttab
 "set colorcolumn=81
 "highlight ColorColumn ctermbg=darkgray
+set cursorline
+
+" set syntax specific folding by default
+set foldmethod=syntax
+set foldlevelstart=1
 
 " highlighting for search
 set hlsearch
@@ -22,3 +27,7 @@ command! -nargs=+ Grep execute 'silent grep! -I -r -n --exclude *.{} . -e <args>
 " shift-control-* Greps for the word under the cursor
 nnoremap <leader>g :Grep <C-R>=expand("<cword>")<CR><CR>
 set switchbuf+=usetab,newtab
+
+" adding system headers for vim autocomplete
+set path+=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/
+
