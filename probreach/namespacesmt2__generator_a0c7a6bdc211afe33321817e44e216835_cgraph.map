@@ -1,6 +1,0 @@
-<map id="smt2_generator::generate_jump_check" name="smt2_generator::generate_jump_check">
-<area shape="rect" id="node2" href="$namespacepdrh.html#a6ddca593c337327c532f9ea0fca077b7" title="pdrh::node_to_string\l_prefix" alt="" coords="225,5,365,47"/>
-<area shape="rect" id="node3" href="$classbox.html#ac035e18162c871daa4d70760b704deb8" title="box::get_map" alt="" coords="245,71,346,98"/>
-<area shape="rect" id="node4" href="$namespacepdrh.html#ab96f23a385a52a1d7cc5c4648a9a9183" title="pdrh::node_fix_index" alt="" coords="224,122,367,149"/>
-<area shape="rect" id="node5" href="$namespacepdrh.html#a85d0964f6180e4b17cd9ab0e06b6463c" title="pdrh::var_exists" alt="" coords="415,122,529,149"/>
-</map>

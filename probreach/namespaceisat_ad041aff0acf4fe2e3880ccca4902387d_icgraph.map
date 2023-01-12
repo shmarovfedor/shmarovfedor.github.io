@@ -1,6 +1,0 @@
-<map id="isat::evaluate" name="isat::evaluate">
-<area shape="rect" id="node2" href="$namespacesolver.html#a0cc024716bebd025c1a41ebe9a3eaabe" title="solver::evaluate" alt="" coords="163,5,278,32"/>
-<area shape="rect" id="node4" href="$namespacedecision__procedure.html#ae5030e785d4819b025c898b318851d21" title="decision_procedure\l::evaluate_isat" alt="" coords="153,57,288,98"/>
-<area shape="rect" id="node5" href="$namespacedecision__procedure.html#aa5301cb187c9443eb6ec02b5fae04f9c" title="decision_procedure\l::evaluate" alt="" coords="153,122,288,163"/>
-<area shape="rect" id="node3" href="$solver__wrapper__test_8cpp.html#a65e184f42a69849fdd172b472e70ccb8" title="TEST" alt="" coords="336,5,392,32"/>
-</map>

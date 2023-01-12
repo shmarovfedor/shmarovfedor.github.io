@@ -1,9 +1,0 @@
-<map id="pdrh::get_all_paths" name="pdrh::get_all_paths">
-<area shape="rect" id="node2" href="$namespacepdrh.html#a6d6ebf61b7e591e7e62fb50a369de7dc" title="pdrh::get_paths" alt="" coords="218,31,330,57"/>
-<area shape="rect" id="node4" href="$namespacepdrh.html#ae58ca7828aa3583858dc4f885bc9b2b8" title="pdrh::get_mode" alt="" coords="607,81,719,108"/>
-<area shape="rect" id="node8" href="$pdrh_8cpp.html#ad1e93fa5ef6b940d22f55c9f3dca8471" title="compare_paths_ascending" alt="" coords="185,132,363,159"/>
-<area shape="rect" id="node3" href="$namespacepdrh.html#a26dc5bcfdf5ce9cb36686f61a5949f6e" title="pdrh::get_successors" alt="" coords="411,31,557,57"/>
-<area shape="rect" id="node5" href="$namespacepdrh.html#a71887b71ef4b2623344074b212d6fa8d" title="pdrh::print_jump" alt="" coords="605,31,720,57"/>
-<area shape="rect" id="node6" href="$namespacepdrh.html#ab345226f9cf68b8eb626e52b760b98ed" title="pdrh::push_terminal_node" alt="" coords="772,5,943,32"/>
-<area shape="rect" id="node7" href="$namespacepdrh.html#a376f84d4bc475286c57fe178cb32063d" title="pdrh::push_operation_node" alt="" coords="768,56,947,83"/>
-</map>

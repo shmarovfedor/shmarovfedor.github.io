@@ -1,7 +1,0 @@
-<map id="malloc" name="malloc">
-<area shape="rect" id="node2" href="$build_2release_2parser_2pdrh_2pdrhlexer_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="165,5,204,32"/>
-<area shape="rect" id="node4" href="$classel_1_1base_1_1utils_1_1_str.html#a6dc022e7e8d4cbf2c80ba9e1354feaea" title="Converst wchar* to char* NOTE: Need to free return value after use! " alt="" coords="113,57,256,98"/>
-<area shape="rect" id="node3" href="$cmake-build-debug_2parser_2pdrh_2pdrhlexer_8c.html#ad4a65b873df5c05570846b5413b41dfd" title="if" alt="" coords="380,5,419,32"/>
-<area shape="rect" id="node5" href="$classel_1_1base_1_1_default_log_dispatch_callback.html#acdac30f202c245500e6d94c55eee6d95" title="el::base::DefaultLogDispatch\lCallback::handle" alt="" coords="304,57,495,98"/>
-<area shape="rect" id="node6" href="$classel_1_1base_1_1_message_builder.html#a42c2a21a6bebb2ad52d22da054cd8f49" title="el::base::MessageBuilder\l::operator\&lt;\&lt;" alt="" coords="315,122,484,163"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="ap::solve_odes_discrete" name="ap::solve_odes_discrete">
-<area shape="rect" id="node2" href="$namespaceap.html#a7b6733e7841674a57703f544bc8bb8a0" title="ap::compute_robustness" alt="" coords="216,64,381,91"/>
-<area shape="rect" id="node7" href="$namespaceap.html#ad21af05bbb73299d41b4546a846e9caf" title="ap::simulate" alt="" coords="252,121,345,148"/>
-<area shape="rect" id="node3" href="$namespacealgorithm.html#ae8240708833ff107daf235c49a248456" title="algorithm::solve_min_max" alt="" coords="429,5,604,32"/>
-<area shape="rect" id="node4" href="$namespacealgorithm.html#a4a320b9da29a2c6599f15eadd2d85450" title="algorithm::compute\l_robustness" alt="" coords="450,57,583,98"/>
-<area shape="rect" id="node5" href="$namespaceap.html#a2289222e0095ac47b9ae8a32b9746abf" title="ap::compute_max_robustness" alt="" coords="652,39,849,65"/>
-<area shape="rect" id="node6" href="$namespaceap.html#a0239abcdd6beecf9792dbfac7149e354" title="ap::compute_min_robustness" alt="" coords="654,89,847,116"/>
-<area shape="rect" id="node8" href="$namespacealgorithm.html#a69c8275d5c6f97758248f103b1ba3879" title="algorithm::evaluate\l_pha_bayesian" alt="" coords="451,122,583,163"/>
-</map>
