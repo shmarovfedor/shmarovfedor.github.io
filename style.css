@@ -1,23 +1,40 @@
 body
 {
   background-color: #e0e0e0;
-  font-family: "Computer Modern";
-  font-size: 120%;
-}
-
-div.main
-{
-  position: absolute;
-  margin-top: auto;  
-  margin-left: 12.5%;  
-  width: 75%;
-  background-color: #ffffff;
 }
 
 div.content
 {
+  position: absolute;
+  margin-left: 12.5%;  
+  width: 75%;
+  background-color: #ffffff;
+  font-size: 120%;
+  font-family: "Computer Modern";
+}
+
+@media print
+{
+  div.content
+  {
+    position: absolute;
+    background-color: #ffffff;
+    font-size: 100%;
+    font-family: "Computer Modern";
+    margin: auto;
+    width: 100%;
+  }
+}
+
+div.padded
+{
   position: relative;
   margin: 30px;
+}
+
+div.centered
+{
+  text-align: center;
 }
 
 div.photo
@@ -27,6 +44,26 @@ div.photo
   margin-left: 30px;
   margin-bottom: 30px;
   width: 300px;
+}
+
+.inline
+{
+  display: inline-block;
+}
+
+.uppercase
+{
+  text-transform: uppercase;
+}
+
+.indented
+{
+  margin-left: 15px;
+}
+
+.bottom_margined
+{
+  margin-bottom: 10px;
 }
 
 img.photo
