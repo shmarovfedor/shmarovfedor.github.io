@@ -1,14 +1,14 @@
 div.content
 {
-  position: absolute;
-  margin-left: 12.5%;  
-  width: 75%;
+  position: relative;
   background-color: #ffffff;
+  max-width: 800px;
+  margin: auto;
 }
 
 .background
 {
-  background-color: #e0e0e0;
+  #background-color: #e0e0e0;
 }
 
 @media print
@@ -41,15 +41,6 @@ div.centered
   text-align: center;
 }
 
-div.photo
-{
-  position: relative;
-  float: right;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  max-width: 300px;
-}
-
 ul
 {
   padding-left: 20px;
@@ -77,5 +68,8 @@ ul
 
 img.photo
 {
-  width: 100%;
+  position: relative;
+  margin-left: 30px;
+  max-width: 300px;
+  float: right;
 }
