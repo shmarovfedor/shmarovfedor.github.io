@@ -70,6 +70,7 @@ img.photo
 {
   position: relative;
   margin-left: 30px;
+  margin-bottom: 30px;
   max-width: 300px;
   width: 100%;
   float: right;
