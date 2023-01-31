@@ -6,6 +6,22 @@ div.content
   margin: auto;
 }
 
+.left_column {
+  float: left;
+  width: 70%;
+}
+
+.right_column {
+  float: right;
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .background
 {
   #background-color: #e0e0e0;
@@ -32,8 +48,7 @@ div.content
 
 div.padded
 {
-  position: relative;
-  margin: 30px;
+  margin: 15px;
 }
 
 div.centered
