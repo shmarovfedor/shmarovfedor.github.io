@@ -19,7 +19,7 @@ body
 div.right_align
 {
   position: relative;
-  margin: 20px;
+  margin: 10px;
   width: 30%;
   float: right;
   display: inline-block;
@@ -28,12 +28,11 @@ div.right_align
 div.left_align
 {
   position: relative;
-  margin: 20px;
+  margin: 10px;
   width: 60%;
   float: left;
   display: inline-block;
 }
-
 
 @media print
 {
