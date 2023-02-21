@@ -3,6 +3,11 @@ div
   #border-style: solid;
 }
 
+ol.publications
+{
+  padding-left: 20px;
+}
+
 div.content
 {
   position: relative;
